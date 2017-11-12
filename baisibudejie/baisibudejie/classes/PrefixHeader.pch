@@ -22,4 +22,6 @@
 #define XMGColor(r,g,b) XMGColorA((r),(g),(b),255)
 #define XMGRandomColor XMGColor(arc4random_uniform(255),arc4random_uniform(255),arc4random_uniform(255))
 #endif
+
+
 #endif
