@@ -12,6 +12,7 @@
 		A9062BE31FB823AA001D68C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9062BE21FB823AA001D68C3 /* main.m */; };
 		A9062BED1FB823AA001D68C3 /* baisibudejieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9062BEC1FB823AA001D68C3 /* baisibudejieTests.m */; };
 		A9062BF81FB823AA001D68C3 /* baisibudejieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9062BF71FB823AA001D68C3 /* baisibudejieUITests.m */; };
+		A9062C0A1FB86589001D68C3 /* LXQTabBarControllerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9062C091FB86589001D68C3 /* LXQTabBarControllerController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		A9062BF31FB823AA001D68C3 /* baisibudejieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baisibudejieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9062BF71FB823AA001D68C3 /* baisibudejieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baisibudejieUITests.m; sourceTree = "<group>"; };
 		A9062BF91FB823AA001D68C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9062C081FB86589001D68C3 /* LXQTabBarControllerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXQTabBarControllerController.h; sourceTree = "<group>"; };
+		A9062C091FB86589001D68C3 /* LXQTabBarControllerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXQTabBarControllerController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,11 +97,9 @@
 		A9062BD21FB823AA001D68C3 /* baisibudejie */ = {
 			isa = PBXGroup;
 			children = (
-				A9062BD31FB823AA001D68C3 /* AppDelegate.h */,
-				A9062BD41FB823AA001D68C3 /* AppDelegate.m */,
+				A9062C071FB86529001D68C3 /* classes */,
 				A9062BDC1FB823AA001D68C3 /* Assets.xcassets */,
 				A9062BE11FB823AA001D68C3 /* Info.plist */,
-				A9062BE21FB823AA001D68C3 /* main.m */,
 			);
 			path = baisibudejie;
 			sourceTree = "<group>";
@@ -119,6 +120,18 @@
 				A9062BF91FB823AA001D68C3 /* Info.plist */,
 			);
 			path = baisibudejieUITests;
+			sourceTree = "<group>";
+		};
+		A9062C071FB86529001D68C3 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				A9062BD31FB823AA001D68C3 /* AppDelegate.h */,
+				A9062BD41FB823AA001D68C3 /* AppDelegate.m */,
+				A9062C081FB86589001D68C3 /* LXQTabBarControllerController.h */,
+				A9062C091FB86589001D68C3 /* LXQTabBarControllerController.m */,
+				A9062BE21FB823AA001D68C3 /* main.m */,
+			);
+			path = classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +196,7 @@
 		A9062BC81FB823AA001D68C3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LXQ;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = lixiaoqiang;
 				TargetAttributes = {
@@ -252,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9062C0A1FB86589001D68C3 /* LXQTabBarControllerController.m in Sources */,
 				A9062BE31FB823AA001D68C3 /* main.m in Sources */,
 				A9062BD51FB823AA001D68C3 /* AppDelegate.m in Sources */,
 			);
