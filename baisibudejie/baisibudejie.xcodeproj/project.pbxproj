@@ -47,6 +47,7 @@
 		A9062BF91FB823AA001D68C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9062C081FB86589001D68C3 /* LXQTabBarControllerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXQTabBarControllerController.h; sourceTree = "<group>"; };
 		A9062C091FB86589001D68C3 /* LXQTabBarControllerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXQTabBarControllerController.m; sourceTree = "<group>"; };
+		A9062C0B1FB86ADE001D68C3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +131,7 @@
 				A9062C081FB86589001D68C3 /* LXQTabBarControllerController.h */,
 				A9062C091FB86589001D68C3 /* LXQTabBarControllerController.m */,
 				A9062BE21FB823AA001D68C3 /* main.m */,
+				A9062C0B1FB86ADE001D68C3 /* PrefixHeader.pch */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -415,6 +417,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = baisibudejie/classes/PrefixHeader.pch;
 				INFOPLIST_FILE = baisibudejie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -432,6 +435,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = baisibudejie/classes/PrefixHeader.pch;
 				INFOPLIST_FILE = baisibudejie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

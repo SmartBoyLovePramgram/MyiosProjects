@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  baisibudejie
+//
+//  Created by lixiaoqiang on 2017/11/12.
+//  Copyright © 2017年 lixiaoqiang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+/***日志**/
+#ifdef DEBUG
+#define XMGLog(...) NSLog(__VA_ARGS__)
+#else
+#define XMGLog(...)
+#endif
+/***颜色*/
+#define XMGColorA(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+#define XMGColor(r,g,b) XMGColorA((r),(g),(b),255)
+#define XMGRandomColor XMGColor(arc4random_uniform(255),arc4random_uniform(255),arc4random_uniform(255))
+#endif
