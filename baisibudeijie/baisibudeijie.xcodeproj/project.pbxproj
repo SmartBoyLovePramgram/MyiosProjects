@@ -101,15 +101,8 @@
 		A9062B911FB81F5D001D68C3 /* baisibudeijie */ = {
 			isa = PBXGroup;
 			children = (
-				A9062B921FB81F5D001D68C3 /* AppDelegate.h */,
-				A9062B931FB81F5D001D68C3 /* AppDelegate.m */,
-				A9062B951FB81F5D001D68C3 /* ViewController.h */,
-				A9062B961FB81F5D001D68C3 /* ViewController.m */,
-				A9062B981FB81F5D001D68C3 /* Main.storyboard */,
-				A9062B9B1FB81F5D001D68C3 /* Assets.xcassets */,
-				A9062B9D1FB81F5D001D68C3 /* LaunchScreen.storyboard */,
-				A9062BA01FB81F5D001D68C3 /* Info.plist */,
-				A9062BA11FB81F5D001D68C3 /* main.m */,
+				A9062BC51FB82012001D68C3 /* classes */,
+				A9062BC41FB81FF7001D68C3 /* files */,
 			);
 			path = baisibudeijie;
 			sourceTree = "<group>";
@@ -130,6 +123,29 @@
 				A9062BB81FB81F5D001D68C3 /* Info.plist */,
 			);
 			path = baisibudeijieUITests;
+			sourceTree = "<group>";
+		};
+		A9062BC41FB81FF7001D68C3 /* files */ = {
+			isa = PBXGroup;
+			children = (
+				A9062B9B1FB81F5D001D68C3 /* Assets.xcassets */,
+				A9062B9D1FB81F5D001D68C3 /* LaunchScreen.storyboard */,
+				A9062BA01FB81F5D001D68C3 /* Info.plist */,
+			);
+			path = files;
+			sourceTree = "<group>";
+		};
+		A9062BC51FB82012001D68C3 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				A9062B921FB81F5D001D68C3 /* AppDelegate.h */,
+				A9062B931FB81F5D001D68C3 /* AppDelegate.m */,
+				A9062B951FB81F5D001D68C3 /* ViewController.h */,
+				A9062B961FB81F5D001D68C3 /* ViewController.m */,
+				A9062BA11FB81F5D001D68C3 /* main.m */,
+				A9062B981FB81F5D001D68C3 /* Main.storyboard */,
+			);
+			path = classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
