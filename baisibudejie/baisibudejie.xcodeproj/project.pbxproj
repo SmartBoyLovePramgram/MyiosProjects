@@ -11,7 +11,6 @@
 		A9062BD81FB823AA001D68C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9062BD71FB823AA001D68C3 /* ViewController.m */; };
 		A9062BDB1FB823AA001D68C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9062BD91FB823AA001D68C3 /* Main.storyboard */; };
 		A9062BDD1FB823AA001D68C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9062BDC1FB823AA001D68C3 /* Assets.xcassets */; };
-		A9062BE01FB823AA001D68C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9062BDE1FB823AA001D68C3 /* LaunchScreen.storyboard */; };
 		A9062BE31FB823AA001D68C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9062BE21FB823AA001D68C3 /* main.m */; };
 		A9062BED1FB823AA001D68C3 /* baisibudejieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9062BEC1FB823AA001D68C3 /* baisibudejieTests.m */; };
 		A9062BF81FB823AA001D68C3 /* baisibudejieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9062BF71FB823AA001D68C3 /* baisibudejieUITests.m */; };
@@ -42,7 +41,6 @@
 		A9062BD71FB823AA001D68C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A9062BDA1FB823AA001D68C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9062BDC1FB823AA001D68C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A9062BDF1FB823AA001D68C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9062BE11FB823AA001D68C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9062BE21FB823AA001D68C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9062BE81FB823AA001D68C3 /* baisibudejieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baisibudejieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +49,7 @@
 		A9062BF31FB823AA001D68C3 /* baisibudejieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baisibudejieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9062BF71FB823AA001D68C3 /* baisibudejieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baisibudejieUITests.m; sourceTree = "<group>"; };
 		A9062BF91FB823AA001D68C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9062C051FB82D40001D68C3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +106,7 @@
 				A9062BD71FB823AA001D68C3 /* ViewController.m */,
 				A9062BD91FB823AA001D68C3 /* Main.storyboard */,
 				A9062BDC1FB823AA001D68C3 /* Assets.xcassets */,
-				A9062BDE1FB823AA001D68C3 /* LaunchScreen.storyboard */,
+				A9062C051FB82D40001D68C3 /* LaunchScreen.storyboard */,
 				A9062BE11FB823AA001D68C3 /* Info.plist */,
 				A9062BE21FB823AA001D68C3 /* main.m */,
 			);
@@ -238,7 +237,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9062BE01FB823AA001D68C3 /* LaunchScreen.storyboard in Resources */,
 				A9062BDD1FB823AA001D68C3 /* Assets.xcassets in Resources */,
 				A9062BDB1FB823AA001D68C3 /* Main.storyboard in Resources */,
 			);
@@ -309,14 +307,6 @@
 				A9062BDA1FB823AA001D68C3 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A9062BDE1FB823AA001D68C3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A9062BDF1FB823AA001D68C3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
