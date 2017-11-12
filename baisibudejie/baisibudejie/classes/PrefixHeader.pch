@@ -9,6 +9,8 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
+/**__objc__只会编译进oc的文件*/
+#ifdef __OBJC__
 /***日志**/
 #ifdef DEBUG
 #define XMGLog(...) NSLog(__VA_ARGS__)
@@ -19,4 +21,5 @@
 #define XMGColorA(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
 #define XMGColor(r,g,b) XMGColorA((r),(g),(b),255)
 #define XMGRandomColor XMGColor(arc4random_uniform(255),arc4random_uniform(255),arc4random_uniform(255))
+#endif
 #endif
