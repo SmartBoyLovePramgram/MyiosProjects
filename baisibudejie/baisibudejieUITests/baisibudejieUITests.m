@@ -1,6 +1,6 @@
 //
-//  baisibudeijieUITests.m
-//  baisibudeijieUITests
+//  baisibudejieUITests.m
+//  baisibudejieUITests
 //
 //  Created by lixiaoqiang on 2017/11/12.
 //  Copyright © 2017年 lixiaoqiang. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface baisibudeijieUITests : XCTestCase
+@interface baisibudejieUITests : XCTestCase
 
 @end
 
-@implementation baisibudeijieUITests
+@implementation baisibudejieUITests
 
 - (void)setUp {
     [super setUp];
