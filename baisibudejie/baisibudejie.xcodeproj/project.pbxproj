@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A9062BD51FB823AA001D68C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9062BD41FB823AA001D68C3 /* AppDelegate.m */; };
-		A9062BD81FB823AA001D68C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9062BD71FB823AA001D68C3 /* ViewController.m */; };
 		A9062BDB1FB823AA001D68C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9062BD91FB823AA001D68C3 /* Main.storyboard */; };
 		A9062BDD1FB823AA001D68C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9062BDC1FB823AA001D68C3 /* Assets.xcassets */; };
 		A9062BE31FB823AA001D68C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9062BE21FB823AA001D68C3 /* main.m */; };
@@ -37,8 +36,6 @@
 		A9062BD01FB823AA001D68C3 /* baisibudejie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baisibudejie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9062BD31FB823AA001D68C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A9062BD41FB823AA001D68C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A9062BD61FB823AA001D68C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A9062BD71FB823AA001D68C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A9062BDA1FB823AA001D68C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9062BDC1FB823AA001D68C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9062BE11FB823AA001D68C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,8 +98,6 @@
 			children = (
 				A9062BD31FB823AA001D68C3 /* AppDelegate.h */,
 				A9062BD41FB823AA001D68C3 /* AppDelegate.m */,
-				A9062BD61FB823AA001D68C3 /* ViewController.h */,
-				A9062BD71FB823AA001D68C3 /* ViewController.m */,
 				A9062BD91FB823AA001D68C3 /* Main.storyboard */,
 				A9062BDC1FB823AA001D68C3 /* Assets.xcassets */,
 				A9062BE11FB823AA001D68C3 /* Info.plist */,
@@ -261,7 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9062BD81FB823AA001D68C3 /* ViewController.m in Sources */,
 				A9062BE31FB823AA001D68C3 /* main.m in Sources */,
 				A9062BD51FB823AA001D68C3 /* AppDelegate.m in Sources */,
 			);
