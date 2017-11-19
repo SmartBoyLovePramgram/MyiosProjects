@@ -13,6 +13,7 @@
 		A9062BED1FB823AA001D68C3 /* baisibudejieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9062BEC1FB823AA001D68C3 /* baisibudejieTests.m */; };
 		A9062BF81FB823AA001D68C3 /* baisibudejieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9062BF71FB823AA001D68C3 /* baisibudejieUITests.m */; };
 		A9062C0A1FB86589001D68C3 /* LXQTabBarControllerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9062C091FB86589001D68C3 /* LXQTabBarControllerController.m */; };
+		A97A21771FC17C610048F41F /* LXQTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A97A21761FC17C610048F41F /* LXQTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		A9062C081FB86589001D68C3 /* LXQTabBarControllerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXQTabBarControllerController.h; sourceTree = "<group>"; };
 		A9062C091FB86589001D68C3 /* LXQTabBarControllerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXQTabBarControllerController.m; sourceTree = "<group>"; };
 		A9062C0B1FB86ADE001D68C3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A97A21751FC17C610048F41F /* LXQTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXQTabBar.h; sourceTree = "<group>"; };
+		A97A21761FC17C610048F41F /* LXQTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXQTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 				A9062BD41FB823AA001D68C3 /* AppDelegate.m */,
 				A9062C081FB86589001D68C3 /* LXQTabBarControllerController.h */,
 				A9062C091FB86589001D68C3 /* LXQTabBarControllerController.m */,
+				A97A21751FC17C610048F41F /* LXQTabBar.h */,
+				A97A21761FC17C610048F41F /* LXQTabBar.m */,
 				A9062BE21FB823AA001D68C3 /* main.m */,
 				A9062C0B1FB86ADE001D68C3 /* PrefixHeader.pch */,
 			);
@@ -271,6 +276,7 @@
 				A9062C0A1FB86589001D68C3 /* LXQTabBarControllerController.m in Sources */,
 				A9062BE31FB823AA001D68C3 /* main.m in Sources */,
 				A9062BD51FB823AA001D68C3 /* AppDelegate.m in Sources */,
+				A97A21771FC17C610048F41F /* LXQTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
