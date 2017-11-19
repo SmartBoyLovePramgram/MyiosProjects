@@ -8,6 +8,10 @@
 
 #import "LXQTabBarControllerController.h"
 #import "LXQTabBar.h"
+#import "LXQEssenceViewController.h"
+#import "LXQNewViewController.h"
+#import "LXQMeViewController.h"
+#import "LXQFollowViewController.h"
 @interface LXQTabBarControllerController ()
 @end
 
@@ -28,10 +32,10 @@
     selectAttrs[NSForegroundColorAttributeName] = [UIColor darkGrayColor];
     [item setTitleTextAttributes:selectAttrs forState:UIControlStateSelected];
     
-    [self setUpOneChildViewController:[[UITableViewController alloc] init] title:@"精华" image:@"tabBar_essence_icon" selectedImage:@"tabBar_essence_click_icon"];
-    [self setUpOneChildViewController:[[UITableViewController alloc] init] title:@"新帖" image:@"tabBar_new_icon" selectedImage:@"tabBar_new_click_icon"];
-    [self setUpOneChildViewController:[[UITableViewController alloc] init] title:@"关注" image:@"tabBar_friendTrends_icon" selectedImage:@"tabBar_friendTrends_click_icon"];
-    [self setUpOneChildViewController:[[UITableViewController alloc] init] title:@"我" image:@"tabBar_me_icon" selectedImage:@"tabBar_me_click_icon"];
+    [self setUpOneChildViewController:[[LXQEssenceViewController alloc] init] title:@"精华" image:@"tabBar_essence_icon" selectedImage:@"tabBar_essence_click_icon"];
+    [self setUpOneChildViewController:[[LXQNewViewController alloc] init] title:@"新帖" image:@"tabBar_new_icon" selectedImage:@"tabBar_new_click_icon"];
+    [self setUpOneChildViewController:[[LXQFollowViewController alloc] init] title:@"关注" image:@"tabBar_friendTrends_icon" selectedImage:@"tabBar_friendTrends_click_icon"];
+    [self setUpOneChildViewController:[[LXQMeViewController alloc] init] title:@"我" image:@"tabBar_me_icon" selectedImage:@"tabBar_me_click_icon"];
     LXQTabBar *lxqTabbar = [[LXQTabBar alloc] init];
     [self setValue:lxqTabbar forKey:@"_tabBar"];
 }
@@ -47,12 +51,13 @@
 - (void)setUpOneChildViewController:(UIViewController*)vc title:(NSString*)title image:(NSString*)image
                       selectedImage:(NSString*)selectedImage
 {
-    vc.tabBarItem.title = title;
+    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:vc];
+    navi.tabBarItem.title = title;
     if (image.length&&selectedImage.length) {
-        vc.tabBarItem.image = [UIImage imageNamed:image];
-        vc.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];
+        navi.tabBarItem.image = [UIImage imageNamed:image];
+        navi.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];
     }
-    [self addChildViewController:vc];
+    [self addChildViewController:navi];
 }
 
 @end

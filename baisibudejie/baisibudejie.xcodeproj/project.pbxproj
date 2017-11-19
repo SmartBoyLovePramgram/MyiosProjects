@@ -310,8 +310,8 @@
 		A97A21A61FC190BB0048F41F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A97A21A71FC190BB0048F41F /* LXQTabBarControllerController.m */,
 				A97A21A81FC190BB0048F41F /* LXQTabBarControllerController.h */,
+				A97A21A71FC190BB0048F41F /* LXQTabBarControllerController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
