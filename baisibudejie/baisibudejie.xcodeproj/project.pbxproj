@@ -10,6 +10,8 @@
 		A9062BDD1FB823AA001D68C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9062BDC1FB823AA001D68C3 /* Assets.xcassets */; };
 		A9062BED1FB823AA001D68C3 /* baisibudejieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9062BEC1FB823AA001D68C3 /* baisibudejieTests.m */; };
 		A9062BF81FB823AA001D68C3 /* baisibudejieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9062BF71FB823AA001D68C3 /* baisibudejieUITests.m */; };
+		A97331421FC1A4F400623E76 /* UIBarButtonItem+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A973313F1FC1A35D00623E76 /* UIBarButtonItem+XMGExtension.m */; };
+		A97331431FC1A4F400623E76 /* UIView+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A97331411FC1A35D00623E76 /* UIView+XMGExtension.m */; };
 		A97A21991FC18F800048F41F /* LXQEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A97A21981FC18F800048F41F /* LXQEssenceViewController.m */; };
 		A97A219C1FC18FAB0048F41F /* LXQFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A97A219B1FC18FAB0048F41F /* LXQFollowViewController.m */; };
 		A97A219F1FC18FB50048F41F /* LXQMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A97A219E1FC18FB50048F41F /* LXQMeViewController.m */; };
@@ -47,6 +49,10 @@
 		A9062BF31FB823AA001D68C3 /* baisibudejieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baisibudejieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9062BF71FB823AA001D68C3 /* baisibudejieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baisibudejieUITests.m; sourceTree = "<group>"; };
 		A9062BF91FB823AA001D68C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A973313E1FC1A35D00623E76 /* UIView+XMGExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGExtension.h"; sourceTree = "<group>"; };
+		A973313F1FC1A35D00623E76 /* UIBarButtonItem+XMGExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XMGExtension.m"; sourceTree = "<group>"; };
+		A97331401FC1A35D00623E76 /* UIBarButtonItem+XMGExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XMGExtension.h"; sourceTree = "<group>"; };
+		A97331411FC1A35D00623E76 /* UIView+XMGExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGExtension.m"; sourceTree = "<group>"; };
 		A97A218F1FC18F380048F41F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A97A21931FC18F380048F41F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A97A21941FC18F380048F41F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -59,8 +65,6 @@
 		A97A219E1FC18FB50048F41F /* LXQMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXQMeViewController.m; sourceTree = "<group>"; };
 		A97A21A01FC18FC20048F41F /* LXQNewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXQNewViewController.h; sourceTree = "<group>"; };
 		A97A21A11FC18FC20048F41F /* LXQNewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXQNewViewController.m; sourceTree = "<group>"; };
-		A97A21A41FC190090048F41F /* UIView+XMGExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGExtension.h"; sourceTree = "<group>"; };
-		A97A21A51FC190090048F41F /* UIView+XMGExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGExtension.m"; sourceTree = "<group>"; };
 		A97A21A71FC190BB0048F41F /* LXQTabBarControllerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXQTabBarControllerController.m; sourceTree = "<group>"; };
 		A97A21A81FC190BB0048F41F /* LXQTabBarControllerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXQTabBarControllerController.h; sourceTree = "<group>"; };
 		A97A21AA1FC190BB0048F41F /* LXQTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXQTabBar.m; sourceTree = "<group>"; };
@@ -301,8 +305,10 @@
 		A97A21A31FC190090048F41F /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				A97A21A41FC190090048F41F /* UIView+XMGExtension.h */,
-				A97A21A51FC190090048F41F /* UIView+XMGExtension.m */,
+				A97331401FC1A35D00623E76 /* UIBarButtonItem+XMGExtension.h */,
+				A973313F1FC1A35D00623E76 /* UIBarButtonItem+XMGExtension.m */,
+				A973313E1FC1A35D00623E76 /* UIView+XMGExtension.h */,
+				A97331411FC1A35D00623E76 /* UIView+XMGExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -457,6 +463,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A97331421FC1A4F400623E76 /* UIBarButtonItem+XMGExtension.m in Sources */,
+				A97331431FC1A4F400623E76 /* UIView+XMGExtension.m in Sources */,
 				A97A21AF1FC191640048F41F /* LXQTabBar.m in Sources */,
 				A97A21AE1FC191550048F41F /* LXQTabBarControllerController.m in Sources */,
 				A97A21AD1FC1914B0048F41F /* AppDelegate.m in Sources */,
