@@ -7,7 +7,7 @@
 //
 
 #import "LXQMeViewController.h"
-
+#import "LXQSettingViewController.h"
 @interface LXQMeViewController ()
 
 @end
@@ -28,9 +28,8 @@
 - (void)settingClick
 {
     XMGLogFunc
-    
-//    XMGSettingViewController *setting = [[XMGSettingViewController alloc] init];
-//    [self.navigationController pushViewController:setting animated:YES];
+    LXQSettingViewController *settingVc = [[LXQSettingViewController alloc] init];
+    [self.navigationController pushViewController:settingVc animated:YES];
 }
 
 - (void)moonClick

@@ -11,6 +11,7 @@
 #import "LXQEssenceViewController.h"
 #import "LXQNewViewController.h"
 #import "LXQMeViewController.h"
+#import "LXQNavigationViewController.h"
 #import "LXQFollowViewController.h"
 @interface LXQTabBarControllerController ()
 @end
@@ -37,21 +38,12 @@
     [self setUpOneChildViewController:[[LXQFollowViewController alloc] init] title:@"关注" image:@"tabBar_friendTrends_icon" selectedImage:@"tabBar_friendTrends_click_icon"];
     [self setUpOneChildViewController:[[LXQMeViewController alloc] init] title:@"我" image:@"tabBar_me_icon" selectedImage:@"tabBar_me_click_icon"];
     LXQTabBar *lxqTabbar = [[LXQTabBar alloc] init];
-    [self setValue:lxqTabbar forKey:@"_tabBar"];
+    [self setValue:lxqTabbar forKey:@"tabBar"];
 }
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-   
-    });
-}
-
 - (void)setUpOneChildViewController:(UIViewController*)vc title:(NSString*)title image:(NSString*)image
                       selectedImage:(NSString*)selectedImage
 {
-    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:vc];
+    LXQNavigationViewController *navi = [[LXQNavigationViewController alloc] initWithRootViewController:vc];
     navi.tabBarItem.title = title;
     if (image.length&&selectedImage.length) {
         navi.tabBarItem.image = [UIImage imageNamed:image];
